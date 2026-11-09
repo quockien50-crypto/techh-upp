@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F6FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="XIN CHÀO ADMIN"
+            android:textColor="#1565C0"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HỆ THỐNG QUẢN LÝ ĐỘI XE"
+            android:textSize="17sp"
+            android:textColor="#555555"
+            android:padding="12dp"/>
+
+        <Button
+            android:id="@+id/btnVehicle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="QUẢN LÝ ĐỘI XE"/>
+
+        <Button
+            android:id="@+id/btnDriver"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="QUẢN LÝ TÀI XẾ"/>
+
+        <Button
+            android:id="@+id/btnMaintenance"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="QUẢN LÝ BẢO DƯỠNG"/>
+
+        <Button
+            android:id="@+id/btnFuel"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="THEO DÕI NHIÊN LIỆU"/>
+
+        <Button
+            android:id="@+id/btnAlert"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="CẢNH BÁO HẠN ĐĂNG KIỂM"/>
+
+        <Button
+            android:id="@+id/btnReport"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="BÁO CÁO CHI PHÍ"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:text="ĐĂNG XUẤT"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F3F6FB">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BÁO CÁO CHI PHÍ"
+        android:textColor="#1565C0"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="24dp"/>
+    <TextView
+        android:id="@+id/tvReportVehicles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng số xe: 0"
+        android:textSize="18sp"
+        android:padding="12dp"/>
+    <TextView
+        android:id="@+id/tvReportFuel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chi phí nhiên liệu: 0 VNĐ"
+        android:textSize="18sp"
+        android:padding="12dp"/>
+    <TextView
+        android:id="@+id/tvReportMaintenance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chi phí bảo dưỡng: 0 VNĐ"
+        android:textSize="18sp"
+        android:padding="12dp"/>
+    <TextView
+        android:id="@+id/tvReportTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TỔNG CHI PHÍ: 0 VNĐ"
+        android:textColor="#2E7D32"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:padding="16dp"/>
+    <vn.edu.vhu.ltdd.detai1.CostChartView
+        android:id="@+id/costChart"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="16dp" />
+    <Button
+        android:id="@+id/btnBackReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUAY LẠI"/>
+</LinearLayout>

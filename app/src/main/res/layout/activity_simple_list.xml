@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F6FB">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/tvScreenTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QUẢN LÝ"
+            android:textColor="#1565C0"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="12dp"/>
+        <EditText
+            android:id="@+id/edtSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tìm kiếm..."
+            android:singleLine="true"/>
+        <LinearLayout
+            android:id="@+id/formContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THÊM"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Danh sách (chạm để sửa, nhấn giữ để xóa)"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#172B4D"
+            android:paddingTop="18dp"
+            android:paddingBottom="8dp"/>
+        <ListView
+            android:id="@+id/listViewRecords"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:divider="#D8DEE9"
+            android:dividerHeight="1dp"/>
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QUAY LẠI"/>
+    </LinearLayout>
+</ScrollView>
